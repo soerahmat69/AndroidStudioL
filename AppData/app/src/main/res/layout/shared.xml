@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="npm"
+            android:id="@+id/npm"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nama"
+            android:id="@+id/nama"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kelas"
+            android:id="@+id/kelas"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lprodi"
+            android:id="@+id/prodi"/>
+
+
+        <Button
+            android:id="@+id/selesai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="selesai" />
+
+    </LinearLayout>
+
+</RelativeLayout>
